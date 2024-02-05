@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,600&family=Inter&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+
+
+
+
+
+.termsAndConditionsHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5rem;
+    }
+    
+    .mainHeaderTermsAndConditionsTitle {
+    margin-top: 4rem
+    }
+    
+    .termsAndConditionsHeaderSubtitle {
+        margin-top: 0.3rem;
+    }
+    
+    
+    
+    
+    
+    .mainTermsAndConditionsTitle {
+        color:#000;
+        text-align: center;
+        
+            /* Desktop/H1 */
+        font-family: 'DM Sans', sans-serif;
+        font-size: 66px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 79.992px;
+            /* 121.2% */
+        letter-spacing: -1px;
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+    
+    }
+    
+    .mainTermsAndConditionsSubtitle {
+        color:#000;
+        text-align: center;
+    
+    /* Desktop/body */
+        font-family: 'DM Sans', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32.004px; /* 177.8% */
+        margin: 0rem;
+        padding: 0rem 2rem;
+    }
+    
+.termsAndConditionContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.termsAndConditionBody {
+    width: 90%;
+    
+    margin: 1rem 0rem;
+}
+
+.termsAndConditionBody > p {
+    color:#000;
+
+/* Desktop/body */
+font-family:  'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32.004px; /* 177.8% */
+padding: 0rem 3rem;
+text-align: justify;
+   }

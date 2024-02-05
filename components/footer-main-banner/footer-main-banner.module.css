@@ -1,0 +1,121 @@
+.downloadMobileContainer {
+   display: none;
+}
+
+
+
+@media (min-width: 47.5rem) {
+  
+    .downloadMobileContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background: #111011;
+    }
+    
+    .downloadMobileDescription {
+        width: 50%;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 2rem;
+        align-items: center;
+
+    }
+    
+    .downloadMobileDescriptionHeader {
+     padding-top: 0rem;
+     margin-top: 0rem;
+    }
+    
+  
+    .mobileTitle {
+        color: var(--peerX-white, #FFF);
+        font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: -1.6px;
+    }
+    
+    .mobileBody {
+    color: var(--peerX-white, #FFF);
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 31.5px */
+    }
+    
+    .downloadMobileSvgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 4rem;
+       
+    }
+    
+    .downloadMobileAndroid {
+        margin-right: 0.438rem
+    }
+    
+    .downloadMobileIos {
+        margin-left: 0.438rem
+    }
+    
+    
+    .downloadMobileImage {
+        width: 50%;
+        height: 80%;
+        position: relative;
+       
+    }
+    
+    .peerxImageContainer {
+        background-image: url('/images/PeerX.png');
+          background-size: cover;
+          width: 100%;
+          height: 500px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: 40%;
+          padding-left: 2rem;
+          margin-top: 2rem;
+          margin-bottom: 0rem;
+           
+        }
+    
+    .peerx {
+        width: 100%;
+    }
+    
+
+    /* download mobile start */
+    .downloadMobileImageLogo {
+        position: absolute;
+        top: 35%;
+        left: 21%;
+        bottom: 50%
+    }
+    
+    .downloadMobileImageLogoName {
+        margin-top: 0rem;
+        padding-top: 0rem;
+        text-align: center;
+    }
+
+
+    .svgApp {
+        width: 20%;
+    }
+
+    .responsiveDownloadMobileContainer {
+        display: none;
+      }
+
+    }
+    
+  /* download mobile end */
+

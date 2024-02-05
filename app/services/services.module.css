@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,600&family=Inter&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=Roboto:wght@500&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+
+/* :root {
+    --peerX-red: #D31E15;
+    --peerX-white: #FFF;
+    --peerX-headerText: #5E5E5E;
+    --peerX-Brown: #000;
+    --peerX-card2: #35219C;
+    --peerX-card3: #E58A13;
+    --peerX-card6: #EE2635;
+    --peerX-lightRed: #FCC;
+    --peerX-tranTitle: #090033;
+    --peerX-Ubuntu: 'Ubuntu', sans-serif;
+    --peerX-DM-Sans: 'DM Sans', sans-serif;
+    --peerX-Inter-Sans: 'Inter', sans-serif;
+    --peerX-Roboto: 'Roboto', sans-serif;
+    --peerX-faq-purple: #A090F3; 
+    --peerX-faq-background: #E9E5F8;
+} */
+
+.serviceHeaderContainer {
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-bottom: 5rem;
+}
+
+.mainHeaderServiceTitle {
+margin-top: 4rem
+}
+
+.serviceHeaderSubtitle {
+    margin-top: 0.3rem;
+}
+
+
+
+
+
+.mainServiceTitle {
+    color: #000;
+    text-align: center;
+    
+        /* Desktop/H1 */
+    font-family: "DM Sans";
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 79.992px;
+        /* 121.2% */
+    letter-spacing: -1px;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+
+}
+
+.mainServiceSubtitle {
+    color: #000;
+    text-align: center;
+
+/* Desktop/body */
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.004px; /* 177.8% */
+    margin: 0rem;
+    padding: 0rem 2rem;
+}
+
+
+.serviceBodyContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem
+ 
+}
+
+.serviceContentContainer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceImageContainer {
+
+background: linear-gradient(to top, rgba(211,211,211, 0.4) 10%, transparent), url('/images/s/361839689d67af0f62de4e5aa06146e2.jpeg') left 80% bottom 0%/cover no-repeat border-box;
+border-radius: 1rem;
+width: 100%;
+height: 50vh;
+
+}
+
+.serviceFeaturesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+}
+
+
+
+
+
+
+.serviceFeatures {
+    width: 100%;
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+                    
+.serviceHeaderTextContainer {
+width: 100%;
+margin: 0rem;
+}
+                       
+.serviceHeader {
+    color:  #091133;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "DM Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 48px; /* 133.333% */
+    margin: 0rem 1rem;
+}
+                  
+    
+.serviceTextsContainer {
+    width: 100%;
+    margin: 0rem;
+}
+
+
+                        
+
+.serviceTexts {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 0.7rem 1rem;
+}
+
+.serviceCardsContainer {
+    width: 100%;
+    display: flex;
+    margin: 0.6rem 0rem;
+}
+
+.serviceCardSection {
+width: 50%;
+margin: 0rem 1rem;
+}
+
+.serviceCard {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.serviceCardTitle {
+    color:  #091133;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Medium 16 */
+    font-family: var(--peerX-Roboto, 'Roboto', sans-serif);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: 0.5rem;
+}
+
+.serviceCardBody {
+    color: var(--Colour-Main-Grey-600, #5D6970);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Regular 12 */
+font-family: var(--peerX-Roboto, 'Roboto', sans-serif);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 150% */
+}
+
+
+.serviceQuoteContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0rem
+}
+
+
+
+.serviceQuoteContent {
+    width: 80%;
+    border-radius: 2rem;
+    background: #D31E15;
+    height: 100%;
+    display: flex;
+    padding: 1.5rem
+}
+
+.serviceQuote {
+color: #FFF;
+font-family: "DM Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 37.994px; /* 172.7% */
+text-align: center;
+padding: 2rem ;
+}
+
+
+
+
+.serviceFinalContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    margin-bottom: 9rem;
+    margin-left: 0rem;
+    margin-right: 0rem
+   
+}
+            
+.serviceFinalContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    /* margin: 0rem 4rem;
+    padding: 2rem 4rem; */
+}
+                
+.serviceFinalHeaderContainer {
+
+margin-bottom: 0rem;
+padding: 0rem 3rem;
+}
+                    
+.serviceFinalTitle {
+color: var(--peerX-Brown, #000);
+font-family: "DM Sans";
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 29.988px; /* 107.1% */
+letter-spacing: 0.28px;
+
+   
+}
+                       
+.serviceFinalBodyContainer {
+    padding: 0rem 3rem;
+
+    margin-bottom: 0rem;
+}
+
+.serviceFinalBody {
+    color: var(--peerX-Brown, #000);
+    font-family: var(--peerX-DM-Sans);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.004px; /* 177.8% */
+    
+}
+
+.serviceFinalSpan {
+color: var(--peerX-Brown, #000);
+font-family: var(--peerX-DM-Sans);
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 700;
+line-height: 32.004px;
+}
+
+.serviceFinalSpan1 {
+color: var(--peerX-Brown, #000);
+font-family: var(--peerX-DM-Sans);
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 32.004px;
+text-decoration-line: underline;
+}
+
+
+
+@media (min-width: 47.5rem) {
+
+
+
+    .serviceContentContainer {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .serviceImageContainer {
+
+    
+        width: 35%;
+        height: 100vh;
+        
+        } 
+
+
+        .serviceFeaturesContainer {
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+            margin: 0rem 2rem;
+            
+           }
+
+           .serviceFinalContent {
+            width: 80%;
+            height: 100%;
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+          
+            margin: 0rem 4rem;
+            padding: 2rem 4rem;
+        }
+}
+               

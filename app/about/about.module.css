@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,600&family=Inter&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+
+.rdp {
+    --peerX-red: #D31E15;
+    --peerX-white: #FFF;
+    --peerX-headerText: #5E5E5E;
+    --peerX-Brown: #000;
+    --peerX-card2: #35219C;
+    --peerX-card3: #E58A13;
+    --peerX-card6: #EE2635;
+    --peerX-lightRed: #FCC;
+    --peerX-tranTitle: #090033;
+    --peerX-Ubuntu: 'Ubuntu', sans-serif;
+    --peerX-DM-Sans: 'DM Sans', sans-serif;
+    --peerX-Inter-Sans: 'Inter', sans-serif;
+    --peerX-faq-purple: #A090F3; 
+    --peerX-faq-background: #E9E5F8;
+}
+
+.aboutHeaderContainer {
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-bottom: 5rem;
+}
+
+.mainHeaderAboutTitle {
+margin-top: 4rem
+}
+
+.aboutHeaderSubtitle {
+    margin-top: 0rem;
+}
+
+
+
+
+
+.mainAboutTitle {
+    color: var(--peerX-Brown, #000);
+    text-align: center;
+    
+        /* Desktop/H1 */
+    font-family: "DM Sans";
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 79.992px;
+        /* 121.2% */
+    letter-spacing: -1px;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+
+}
+
+.mainAboutSubtitle {
+    color: var(--peerX-Brown, #000);
+    text-align: center;
+
+/* Desktop/body */
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.004px; /* 177.8% */
+    margin: 0rem;
+    padding: 0rem 2rem;
+}
+
+
+.peerXMotivationContainer {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */ 
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+
+
+.peerXMotivationCardContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.peerXMotivationCard {
+
+
+    display: flex;
+width: 90%;
+border-radius: 24px;
+background: var(--peerX-red, #D31E15);
+justify-content: center;
+margin: 0.5rem 1rem;
+padding: 1.8rem;
+flex-direction: column;
+
+   
+}
+
+
+
+
+
+
+.peerX-motivation-title-container {
+   
+    
+
+}
+.peerXMotivationCardTitle {
+    color: #FFF;
+   font-family: "DM Sans";
+   font-size: 1.05rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 25.992px; /* 144.4% */
+   letter-spacing: 0.9px;
+   text-transform: uppercase;
+   margin: 0rem;
+   padding: 0.34rem;
+}
+
+.peerXMotivationCardBody {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.004px; /* 177.8% */
+    margin: 0rem;
+    padding: 0.34rem;
+} 
+
+
+
+
+
+    .peerXDriveContainer {
+        display: flex;
+       width: 100%;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+    } 
+    
+
+
+
+
+.peerXDriveSubtitleContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.peerXDriveTitleContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+ 
+
+.peerXDriveTitle {
+    color: #000;
+
+    /* Desktop/H2 */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.02px; /* 131% */
+    padding: 0rem 1rem;
+    text-align: center;
+
+}
+
+
+
+
+.peerXDriveSubtitle {
+    color:#000;
+    /* Desktop/body */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.004px; /* 177.8% */
+    margin: 0rem;
+    text-align: center;
+}
+
+.peerXMotivationCardSvgContainer {
+padding: 0.1rem 0.7rem;
+}
+
+.peerXSvg {
+    background-color: #000;
+    border-radius: 1.25rem;
+    padding: 0.34rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.missionStatementContainer {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem; 
+}
+
+.missionStatementTextContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    /* margin-left: 7rem; */
+    margin-right: 0;
+}
+
+
+
+.missionStatementTextGroup {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2rem 0;
+    
+   
+}
+
+
+
+.missionStatementImageContainer {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    /* margin-right: 7rem; */
+
+}
+
+.missionImg {
+    width: 100%;
+   
+}
+
+
+
+.missionStatementBody {
+    color:#000;
+
+/* Desktop/body */
+font-family: "DM Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26.004px; /* 177.8% */
+
+
+}
+
+.missionStatementBody2 {
+    color:#000;
+
+    /* Desktop/body */
+    font-family: "DM Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.004px; /* 177.8% */ 
+}
+
+
+
+.missionStatementTitle {
+    color:#000;
+
+/* Desktop/H2 */
+font-family: "DM Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 50.02px; /* 131% */
+margin: 0;
+
+}
+
+
+
+
+
+
+
+.visionStatementContainer {
+    width: 100%;
+    flex-direction: column-reverse;
+    display: flex;
+    margin: 3rem 0rem;
+}
+
+
+
+
+
+
+.visionStatementTextContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    /* margin-right: 7rem; */
+    margin-left: 0;
+
+}
+
+.visionStatementTextGroup {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 2rem 0;
+    
+   
+}
+
+
+
+.visionStatementImageContainer {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    /* margin-left: 6.5rem; */
+
+}
+
+
+
+.visionImg {
+    width: 100%;
+    padding-left: 1.2rem;
+}
+
+
+
+.visionStatementBody {
+    color:#000;
+
+/* Desktop/body */
+font-family: "DM Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26.004px; /* 177.8% */
+
+
+}
+
+.visionStatementBody2 {
+    color:#000;
+
+    /* Desktop/body */
+    font-family: "DM Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.004px; /* 177.8% */ 
+    
+}
+
+
+
+.visionStatementTitle {
+    color:#000;
+
+/* Desktop/H2 */
+font-family: "DM Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 50.02px; /* 131% */
+margin: 0;
+
+}
+
+
+@media (min-width: 47.5rem) {
+
+    .mainAboutTitle {
+        color:#000;
+        text-align: center;
+        
+            /* Desktop/H1 */
+        font-family: "DM Sans";
+        font-size: 4.125rem;
+    }
+
+    .peerXMotivationCardContainer {
+        display: flex;
+        flex-direction: row;
+        width: 80%;  
+    }
+
+    .peerXDriveContainer {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .peerXDriveSubtitleContainer {
+        width: 50%;
+        
+        margin-left: 2rem;
+      }
+
+      .peerXDriveSubtitle {
+        text-align: justify;
+        padding: 0rem 1.25rem;
+      }
+      
+      .peerXDriveTitleContainer {
+          width: 50%;
+          justify-content: center;
+          align-items: center;
+          
+        }
+
+
+        .peerXMotivationCard {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            border-radius: 24px;
+            background: var(--peerX-red, #D31E15);
+          
+           justify-content: center;
+            margin: 0.5rem 1rem;
+            padding: 1.8rem;
+        }
+
+       
+        
+        .peerXDriveTitle {
+            color: #000;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 55.02px;
+            padding: 0rem 1rem;
+        }
+
+        .missionStatementContainer {
+            width: 100%;
+            display: flex; 
+            flex-direction: row;
+            margin: 3rem 0rem; 
+        }
+
+
+        .missionStatementTextContainer {
+            width: 50%;
+            display: flex;
+            /* justify-content: center;
+            align-items: center;
+            margin-top: 1rem; */
+            margin-left: 7rem;
+            /* margin-right: 0; */
+            
+        }
+
+
+        .missionStatementImageContainer {
+            width: 50%;
+            /* padding: 2rem 1rem;
+            margin-top: 1rem; */
+            margin-right: 7rem;
+        
+        }
+
+      
+        
+        .missionImg, .visionImg {
+            /* width: 100%; */
+            padding-left: 1.2rem;
+        }
+
+
+        .visionStatementContainer {
+            width: 100%;
+            display: flex; 
+            flex-direction: row;
+            margin: 3rem 0rem; 
+           
+        }
+
+        .visionStatementImageContainer {
+            width: 50%;
+            /* padding: 2rem 1rem;
+            margin-top: 1rem; */
+            margin-left: 6.5rem;
+        
+        }
+
+        .visionStatementTextContainer {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+            margin-right: 7rem;
+            margin-left: 0;
+        
+        }
+
+        .visionStatementBody2, .missionStatementBody2 {
+             
+            padding-bottom: 4rem;
+        }
+
+
+        
+
+
+
+}
+
+
+
+
+
+
+
+

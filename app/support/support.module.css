@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,600&family=Inter&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+
+/* :root {
+    --peerX-red: #D31E15;
+    --peerX-white: #FFF;
+    --peerX-headerText: #5E5E5E;
+    --peerX-Brown: #000;
+    --peerX-card2: #35219C;
+    --peerX-card3: #E58A13;
+    --peerX-card6: #EE2635;
+    --peerX-lightRed: #FCC;
+    --peerX-tranTitle: #090033;
+    --peerX-Ubuntu: 'Ubuntu', sans-serif;
+    --peerX-DM-Sans: 'DM Sans', sans-serif;
+    --peerX-Inter-Sans: 'Inter', sans-serif;
+    --peerX-faq-purple: #A090F3; 
+    --peerX-faq-background: #E9E5F8;
+    --peerX-form-background:#F8EAE9;
+} */
+
+
+.feedbackContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 8rem 0rem 2rem;
+
+}
+
+
+
+.feedbackContent {
+display: flex;
+flex-direction: column;
+
+width: 80%;
+}
+    
+.feedback-header-container {
+
+}
+   
+
+.feedbackHeader {
+    color: #000;
+
+/* Desktop/H1 */
+font-family: 'DM Sans', sans-serif;
+font-size: 66px;
+font-style: normal;
+font-weight: 700;
+line-height: 79.992px; /* 121.2% */
+letter-spacing: -1px;
+
+}
+   
+.feedbackMainContainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+        
+
+.feedbackMainFormContainer {
+width: 100%;
+margin: 0rem 3.5rem;
+
+}
+
+
+.feedbackMainContactContainer {
+  width: 100%;
+ 
+
+  }
+            
+.feedbackMainContactContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+                
+.feedback-main-contact-heading-container {
+
+}
+
+.feedbackMainContactHeading {
+  color: #000;
+font-family:'DM Sans', sans-serif;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 30.998px; /* 140.9% */
+letter-spacing: 0.22px;
+margin: 0rem;
+}
+                    
+               
+
+
+                    
+.feedbackMainContactBody {
+  color: #000;
+   font-family:'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.004px; /* 177.8% */
+  margin: 0.5rem 0;
+}
+                       
+
+.feedbackMainContactList {
+  display: flex;
+  
+  align-items: center;
+  
+}
+
+.contactListText {
+  color: #000;
+  font-family:'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.998px; /* 161.1% */
+}
+
+
+.formInnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  /* margin-bottom: 0.3rem; */
+}
+
+
+.contactListSvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  background: #D31E15;
+  padding: 0.6rem;
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+
+                                      
+.contact-list-text {
+ 
+}
+
+.email::placeholder, .name::placeholder, .message::placeholder, .subject::placeholder {
+  color: #000;
+  font-family:'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+
+.nameLabel, .emailLabel, .subjectLabel, .messageLabel, .attachmentLabel {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    font-family:'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25.992px; /* 144.4% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+
+
+
+  .formGroup {
+
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .formGroup input[type="text"],
+  .formGroup input[type="email"] {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3rem;
+    background:  #F8EAE9;
+    margin-bottom: 0.5rem;
+  }
+
+  .formGroup  textarea {
+    width: 100%;
+    height: 130px;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    background: #F8EAE9;
+    resize: none;
+    padding: 0.7rem;
+  }
+
+  .customFileInput {
+    width: 100%;
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    background-color: #F8EAE9;
+     /* Set custom height */
+    height: 110px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  
+
+  .customFileInput input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  
+  .fileLabelContainer {
+    width: 100%;
+    margin: 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+  }
+
+  .fileInputContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+
+ 
+
+.fileLabel {
+  color:#000;
+  font-family:'DM Sans', sans-serif;
+ font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 0rem;
+
+}
+
+
+
+.supportedFormat {
+  color: #A07676;
+font-family: "DM Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+  
+  .uploadText {
+    text-align: center;
+    color: #555;
+    
+  }
+
+  .formButtonContainer {
+    display: flex;
+    width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.3rem;
+  }
+
+/* Styles for the submit button */
+.submitButton {
+  cursor: pointer;
+  background-color: #D31E15; /* Red background color */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 5rem; /* Add rounded corners */
+ 
+}
+
+.submitButton > p {
+  color: #FFF;
+text-align: center;
+font-family: "DM Sans";
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 800;
+line-height: 16px; /* 100% */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+
+/* Hover effect */
+.submitButton:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.supportFaqMainContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem;
+  }  
+  
+  .supportFaqContainer {
+    width: 100%;
+    
+  }
+  
+  .support-faq-header-container {
+  
+  }
+  
+  .supportFaqHeader {
+    color: #000;
+  
+  /* Desktop/H1 */
+  font-family:'DM Sans', sans-serif;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 79.992px; /* 121.2% */
+  letter-spacing: -1px;
+  
+  padding: 0rem;
+  margin: 0rem;
+  text-align: center;
+  }
+
+  
+
+  
+
+
+
+
+
+
+
+
+@media (min-width: 47.5rem) { 
+
+
+  .feedbackMainContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .feedbackMainFormContainer {
+    width: 70%;
+    
+    
+  }
+
+  .feedbackMainContactContainer {
+    width: 30%;
+  }
+  .supportFaqContainer {
+     width: 60%;
+  }
+
+  .feedbackHeader {
+    margin: 0rem 3.5rem;
+  }
+
+  .name {
+    margin: 0rem 0.5rem 0rem 0rem;
+  }
+
+  .email {
+    margin: 0rem 0rem 0rem 0.5rem;
+  }
+
+  .formInnerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    /* margin-bottom: 0.3rem; */
+  }
+ 
+  
+}
+       
+   

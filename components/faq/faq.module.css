@@ -1,0 +1,341 @@
+.faqsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0rem;
+}
+
+.faqHeaderContainer {
+    width: 80%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+   
+    
+    
+} 
+
+
+.faqsListContainer {
+ width: 90%;
+}
+
+
+
+
+
+.faqLists {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.faqListContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.7rem ;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: var(--peerX-white, #FFF);
+
+/* Sleek Shadow */
+box-shadow: 0px 2px 2px 0px rgba(72, 80, 88, 0.08);
+
+}
+
+.faqSubtitleContainer {
+margin-top: 1rem;
+background-color: hsl(252, 95%, 88%);
+width: 62%;
+border-radius: 0.7rem;
+white-space: nowrap;
+overflow: hidden;
+
+
+}
+.faqSubtitle {
+    color: #5F44EC;
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    padding: 0.3rem 0.7rem;
+    
+   /* Linear Gradient */
+
+
+}
+
+.faqTitle {
+color: #2E3539;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -1.6px;
+}
+
+.faqBody {
+color: #6C747D;
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 31.5px */
+}
+
+.faqContactButton {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-radius: 1.2rem;
+border: 1px solid rgba(228, 228, 228, 0.58);
+background: #2E3539;
+box-shadow: 0px 7px 17px 0px rgba(105, 80, 235, 0.31), 0px 4px 7px 0px rgba(156, 138, 234, 0.30) inset;
+width: 35%;
+padding: 0.2rem 0.4rem;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.faqContactButton > p {
+    color: var(--peerX-white, #FFF);
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px; 
+}
+
+.faqListHeader{
+    color: #16191D;
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    margin: 0.4rem 0rem;
+}
+
+.faqListBody {
+color:#6C747D;
+font-family:  var(--peerX-Inter-Sans, 'Inter', sans-serif);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin: 0.4rem 0rem;
+}
+
+.faqListHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plusIconContainer {
+  padding-right: 1rem;
+    cursor: pointer; 
+}
+
+.fa-plus, .fa-minus {
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+
+.close {
+    display: none;
+}
+
+.open {
+    display: flex;
+}
+
+
+
+
+
+@media (min-width: 47.5rem) {
+/* faq-container start*/
+.faqsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10rem 0rem;
+}
+
+.faqHeaderContainer {
+    width: 40%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+   
+    margin-left: 7rem;
+    
+}
+
+.faqsListContainer {
+   
+    margin-right: 7rem;
+    width: 70%;
+}
+
+.faqLists {
+    list-style-type: none;
+}
+
+.faqListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.7rem ;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: var(--peerX-white, #FFF);
+
+/* Sleek Shadow */
+box-shadow: 0px 2px 2px 0px rgba(72, 80, 88, 0.08);
+
+}
+
+.faqSubtitleContainer {
+margin-top: 1rem;
+background-color: hsl(252, 95%, 88%);
+width: 62%;
+border-radius: 0.7rem;
+white-space: nowrap;
+    overflow: hidden;
+
+
+}
+.faqSubtitle {
+    color: #5F44EC;
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    padding: 0.3rem 0.7rem;
+    
+   /* Linear Gradient */
+
+
+}
+
+.faqTitle {
+color: #2E3539;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: -1.6px;
+}
+
+.faqBody {
+color: #6C747D;
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 31.5px */
+}
+
+.faqContactButton {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-radius: 1.2rem;
+border: 1px solid rgba(228, 228, 228, 0.58);
+background: #2E3539;
+box-shadow: 0px 7px 17px 0px rgba(105, 80, 235, 0.31), 0px 4px 7px 0px rgba(156, 138, 234, 0.30) inset;
+width: 30%;
+padding: 0.2rem 0.4rem;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.faqContactButton > p {
+    color: var(--peerX-white, #FFF);
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.64px; 
+}
+
+.faqListHeader{
+    color: #16191D;
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 650;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    margin: 0.4rem 0rem;
+}
+
+.faqListBody {
+color:#6C747D;
+font-family:  var(--peerX-Inter-Sans, 'Inter', sans-serif);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin: 0.4rem 0rem;
+}
+
+.faqListHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fa-plus, .fa-minus {
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.faqSubtitle {
+   
+    font-size: 1rem;
+    
+    
+   /* Linear Gradient */
+
+
+}
+
+
+.close {
+    display: none;
+    color: red;
+}
+
+
+
+}

@@ -1,0 +1,52 @@
+
+  
+  .supportFaqListHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8rem 1rem;
+    
+  }
+  
+  .supportFaqListHeader {
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29.988px; /* 107.1% */
+    letter-spacing: 0.28px;
+    margin: 0.6rem 0rem;
+  }
+  
+  .supportFaqListBodyContainer {
+    display: flex;
+    align-items: stretch;
+    margin: 0rem 1rem;
+  }
+  
+  .supportFaqListBody {
+    color: #000;
+  
+  /* Desktop/body */
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.004px; /* 177.8% */
+  
+  }
+  
+  .iconContainer {
+cursor: pointer;
+  }
+  
+  .addIcon, .minusIcon {
+    height: 2rem;
+    width: 2rem;
+    
+  }    
+
+  .supportFaqListContainer {
+   padding-bottom: 0.5rem;
+  }

@@ -1,0 +1,325 @@
+.calculatorContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: var(--peerX-Brown, #000);
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.calculatorHeader {
+    color: var(--peerX-Brown, #000);
+    text-align: center;
+   font-size: 1.4rem;
+   font-style: normal;
+   font-weight: 800;
+   font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+   line-height: normal;
+   letter-spacing: -1.6px;
+   margin-top: 0.6rem;
+   
+  
+}
+
+.calculatorContainerCalculator {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color: #FDEDED;
+    border-radius: 0.7rem;
+
+}
+
+.calculator-container__header {
+ 
+}
+
+
+
+.calculatorItalic {
+color: var(--peerX-red,  #D31E15);
+font-family: Figma Hand;
+font-size: 2rem;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+}
+
+.calculatorContainerForm {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+.formContainer {
+    width: 100%;
+    border-radius: 0.6rem;
+    background-color: #FFFFFF;
+    margin: 0rem 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideBySideForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+.Nig, .Ca {
+    width: 400px;
+  
+    padding: 1rem;
+    /* box-sizing: border-box; */
+    border-radius: 12px;
+    border: 1px solid #E7C5C5;
+    background: #FCF7F7;
+    
+}
+
+.Nig {
+    background-image: url('/images/emojione_flag-for-nigeria\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position: 5% center; /* Adjust as needed */
+    padding-right: 30px;
+}
+
+.Ca {
+    background-image: url('/images/emojione_flag-for-canada\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position: 5% center; /* Adjust as needed */
+    padding-right: 30px;
+}
+
+.Nig::placeholder, .Ca::placeholder  {
+    position: relative;
+    top: 20%; /* Adjust as needed */
+    bottom: 50%;
+    left: 25%;
+    color: #565656;
+  }
+
+
+.formGroup {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 10px; Optional: Add spacing between inputs */
+    margin: 2rem;
+}
+
+/* .arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem
+    
+  
+} */
+
+.arrowSvg {
+ width: 2rem;
+ height: 1.7rem;
+ 
+}
+
+.calculatorContainerLogo {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 2.5rem 0rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.svgApp {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 59.375rem) {
+
+/* calculator start */
+.calculatorContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: var(--peerX-Brown, #000);
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.calculatorContainerCalculator {
+    width: 80%;
+    margin: 0.5rem 0;
+    padding: 2rem 0;
+    background-color: #FDEDED;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator-container__header {
+ 
+}
+
+.calculatorHeader {
+    color: var(--peerX-Brown, #000);
+    text-align: center;
+   font-size: 2.1rem;
+   font-style: normal;
+   font-weight: 900;
+   font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+   line-height: normal;
+   letter-spacing: -1.6px;
+   margin-top: 0rem;
+   
+  
+}
+
+.calculatorItalic {
+color: var(--peerX-red,  #D31E15);
+font-family: Figma Hand;
+font-size: 3rem;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+}
+
+.calculatorContainerForm {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 1.2rem;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+.formContainer {
+    width: 100%;
+    border-radius: 0.6rem;
+    background-color: #FFFFFF;
+    margin: 0rem 5rem;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideBySideForm {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.formGroup {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 10px; Optional: Add spacing between inputs */
+    margin: 2rem;
+}
+
+.Nig {
+    width: 100%;
+    padding: 1rem 0rem;
+    /* box-sizing: border-box; */
+    border-radius: 12px;
+    border: 1px solid #E7C5C5;
+    background: #FCF7F7;
+    
+}
+
+.Ca {
+  width: 100%;
+  padding: 1rem 0rem;
+  /* box-sizing: border-box; */
+  border-radius: 12px;
+  border: 1px solid #E7C5C5;
+  background: #FCF7F7;
+}
+
+.Nig {
+    background-image: url('/images/emojione_flag-for-nigeria\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position: 5% center; /* Adjust as needed */
+    padding-right: 30px;
+}
+
+.Ca {
+    background-image: url('/images/emojione_flag-for-canada\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-position: 5% center; /* Adjust as needed */
+    padding-right: 30px;
+}
+
+.Nig::placeholder, .Ca::placeholder  {
+    position: relative;
+    top: 20%; /* Adjust as needed */
+    bottom: 50%;
+    left: 25%;
+    color: #565656;
+  }
+
+
+
+
+
+
+.arrowSvg {
+ width: 2rem;
+
+}
+
+.calculatorContainerLogo {
+    display: flex;
+    margin: 1rem 5rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.svgApp {
+    width: 25%;
+}
+
+}

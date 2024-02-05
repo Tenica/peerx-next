@@ -1,0 +1,87 @@
+.responsiveDownloadMobileContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    /* height: 30vh; */
+    background: #111011;
+    opacity: 0.9;
+}
+
+.responsiveDownloadMobileContent {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.responsiveMobileDescriptionHeader {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.6px;
+    z-index: 10;
+}
+
+/* .responsiveDownloadMobileImageLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   top: 30%;
+   left: 25%
+
+} */
+
+.responsiveDownloadMobileSvgs {
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+
+.responsiveMobileTitle {
+    color: var(--peerX-white, #FFF);
+    font-family:  var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1.6px;
+}
+
+.responsiveMobileBody {
+    color: var(--peerX-white, #FFF);
+    font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 31.5px */
+    padding: 0rem 0.5rem;
+    text-align: center;
+}
+
+.downloadMobileContainer,
+.downloadMobileImageContainer {
+  display: none;
+}
+
+@media (min-width: 47.5rem) {
+    .responsiveDownloadMobileContainer {
+       display: none; 
+    }
+
+}
+
+
+
+
+

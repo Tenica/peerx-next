@@ -1,0 +1,128 @@
+
+
+.headContainer {
+    display: none;
+}
+
+
+@media (min-width: 47.5rem) {
+  
+    /* header start */
+    .headContainer {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        z-index: -3;
+        border-bottom: 0.9rem solid var(--peerX-red,  #D31E15);
+      
+       
+    }
+    
+    .header {
+        padding: 0.5rem;
+        color: var(--peerX-Brown, #000);
+        font-family: var(--peerX-Ubuntu, 'Ubuntu', sans-serif);
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+    
+    
+        
+    
+    .headContainerText {
+        width: 55%;
+        padding: 3rem 3rem 0;
+        margin-bottom: 5rem;
+        
+    }
+    
+    .text {
+    color: var(--peerX-headerText, #5E5E5E);
+    font-family: var(--peerX-DM-Sans, 'DM Sans', sans-serif);
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .headContainerImage {
+    width: 45%;
+    position: relative;
+    }
+    
+    .circle {
+        position: absolute;
+          top: 60%;
+          left: 56%;
+         
+          transform: translate(-60%, -60%);
+          width: 70%; /* Adjust the size of the circle */
+          height: 50%;
+          padding-bottom: 65%; /* Maintain aspect ratio for a perfect circle */
+          background-color: var(--peerX-lightRed, #FCC); 
+          border-radius: 50%; /* Adjust the background color as needed */
+        
+    }
+    
+    
+    
+    .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1; /* Ensure the image is on top of the circle */
+    }
+    
+    
+    
+    .italic {
+        color: var(--peerX-red,  #D31E15);
+    font-family: Figma Hand;
+    font-size: 75px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    .startButton {
+        display: flex;
+        background-color: var(--peerX-red,  #D31E15);
+        width: 6rem;
+        height: 2.5rem;
+        color: var(--peerX-white, #FFF);
+        padding: 0.5rem 0.2rem;
+        margin-bottom: 0.5rem;
+        border-radius: 0.3rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .startButtonText {
+       font-size: 0.7rem;
+       color: var(--peerX-white, #FFF);
+       font-family: var(--peerX-DM-Sans, 'DM Sans', sans-serif);
+       font-size: 0.8rem;
+       font-style: normal;
+       line-height: normal;
+    }
+
+    .mobileMainHeaderContainer {
+        display: none;
+    }
+
+}
+    
+    /* header end */
