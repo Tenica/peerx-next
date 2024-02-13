@@ -121,11 +121,11 @@ text-align: center;
 }
 
 .transSvg {
-    background-color: #FFF;
-    padding: 1px;
-    width: 2rem;
-    height: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
+
+
 
 .svg1 {
     height: 13px;
@@ -266,10 +266,8 @@ text-align: center;
       }
       
       .transSvg {
-          background-color: #FFF;
-          padding: 1px;
-          width: 2rem;
-          height: 1rem;
+          width: 3rem;
+          height: 3rem;
       }
       
       .svg1 {

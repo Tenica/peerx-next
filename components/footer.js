@@ -74,23 +74,34 @@ function Footer() {
           <li className="footer-link">
             <p className="link-text">Help Center</p>
           </li>
+          <li className="footer-link">
+          <p className="hidden-link">Help Center</p>
+        </li>
+        <li className="footer-link">
+        <p className="hidden-link">Help Center</p>
+      </li>
         </ul>
       </div>
       <div className="footer-links__social-media">
-        <div className="social-media-title">
+      <ul className="footer-list-links">
+          <li className="footer-link">
           <p className="social-title">Social Media</p>
-        </div>
-        <div className="social-media-container">
+          </li>
+          <li className="footer-link">
+          <div className="social-media-container">
           <img src="../images/instagram.svg" className="insta" alt="" />
           <img src="../images/facebook.svg" className="facebook" alt="" />
           <img src="../images/youTube.svg" className="youTube" alt="" />
-        </div>
+         </div>
+        </li>
+          </ul>
       </div>
     </div>
     <div className="copyright-container">
       <p className="copyright-text">© NovaPeerX 2023. All rights reserved.</p>
     </div>
   </footer>
+  
   <footer className="mobile-footer-container">
     <div className="newsletter-container">
       <p className="newsletter-header">Subscribe To Our Newsletter</p>

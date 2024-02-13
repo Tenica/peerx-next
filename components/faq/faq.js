@@ -3,6 +3,7 @@ import React from "react";
 import styles from './faq.module.css'
 import Image from "next/image";
 import Accordion from "../accordion";
+import Link from "next/link";
 
 
 function Faq() {
@@ -23,10 +24,10 @@ function Faq() {
             Feel free to reach out to us if you have more questions for us.
           </p>
         </div>
-        <div className={styles.faqContactButton}>
+        <Link href={'/support'} className={styles.faqContactButton}>
           <p className={styles.buttonText}>Contact Us</p>
           <Image  width={30} height={30} src="/images/ArrowNarrowUpOutline.svg" alt="" />
-        </div>
+        </Link>
       </div>
       <div className={styles.faqsListContainer}>
         <ul className={styles.faqLists}>

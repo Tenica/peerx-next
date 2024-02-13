@@ -5,7 +5,7 @@ import styles from './mobile-banner.module.css'
 function MobileBanner() {
     return ( <section className={styles.mobileMainHeaderContainer}>
         <div className={styles.mobileMainHeaderContent}>
-        <div className={styles.mobileCircle}></div>
+         <div className={styles.mobileCircle}></div>
           <div className={styles.mobileHeaderImageContainer}></div>
           <div className={styles.mobileHeaderTextContainer}>
             <div className={styles.mobileHeaderTitleHeaderContainer}>

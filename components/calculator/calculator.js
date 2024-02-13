@@ -49,8 +49,8 @@ function Calculator() {
             </div>
           </div>
           <div className={styles.calculatorContainerLogo}>
-            <Image width={50} height={50} src="images/Group (2).svg" alt="android" className={styles.svgApp} />
-            <Image width={50} height={50} src="images/Group (1).svg" alt="ios" className={styles.svgApp} />
+            <Image width={1000} height={500} src="images/Group (2).svg" alt="android" className={styles.svgApp} />
+            <Image width={500} height={500} src="images/Group (1).svg" alt="ios" className={styles.svgApp2} />
           </div>
         </div>
       </section> );

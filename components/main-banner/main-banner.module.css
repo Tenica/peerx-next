@@ -10,41 +10,52 @@
     /* header start */
     .headContainer {
         display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
         z-index: -3;
         border-bottom: 0.9rem solid var(--peerX-red,  #D31E15);
-      
+    }
+
+    .headContent {
+        display: flex;
        
+        width: 80%;
     }
     
     .header {
-        padding: 0.5rem;
+       
         color: var(--peerX-Brown, #000);
         font-family: var(--peerX-Ubuntu, 'Ubuntu', sans-serif);
-        font-size: 64px;
+        font-size: 60px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        margin-bottom: 0;
+        margin-top: 0;
         }
     
     
         
     
     .headContainerText {
-        width: 55%;
-        padding: 3rem 3rem 0;
-        margin-bottom: 5rem;
-        
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
     
     .text {
     color: var(--peerX-headerText, #5E5E5E);
     font-family: var(--peerX-DM-Sans, 'DM Sans', sans-serif);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: justify;
+    padding-right: 2rem;
     }
     
     
@@ -56,8 +67,9 @@
     
     
     .headContainerImage {
-    width: 45%;
+    width: 50%;
     position: relative;
+    
     }
     
     .circle {
@@ -71,18 +83,15 @@
           padding-bottom: 65%; /* Maintain aspect ratio for a perfect circle */
           background-color: var(--peerX-lightRed, #FCC); 
           border-radius: 50%; /* Adjust the background color as needed */
-        
+          z-index: -1;
     }
     
     
     
     .image {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        padding-top: 4rem;
         z-index: 1; /* Ensure the image is on top of the circle */
     }
     
@@ -125,4 +134,43 @@
 
 }
     
-    /* header end */
+    
+
+
+    @media (min-width: 912px) {
+      .headContent {
+      border: 1px solid red;
+      margin-top: 5rem
+      }
+
+      .headContainerText  {
+        margin-top: 3rem;
+      }
+
+      .header {
+       
+      
+        font-size: 40px;
+       
+        }
+
+        .italic {
+          
+        font-size: 50px;
+        font-style: italic;
+        font-weight: 700;
+        line-height:normal;
+        }
+
+
+        .text {
+  
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: justify;
+            padding-right: 5rem;
+            }
+
+    }

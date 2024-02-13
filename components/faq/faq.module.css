@@ -48,7 +48,7 @@
 
 /* Sleek Shadow */
 box-shadow: 0px 2px 2px 0px rgba(72, 80, 88, 0.08);
-
+cursor: pointer;
 }
 
 .faqSubtitleContainer {

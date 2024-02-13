@@ -321,7 +321,7 @@
     }
     
     .cardBody {
-        
+        padding: 1rem;
         font-size: 0.6rem; 
         color: var(--peerX-white, #FFF);
         font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);

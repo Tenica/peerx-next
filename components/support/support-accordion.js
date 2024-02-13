@@ -13,10 +13,10 @@ function SupportAccordion({title, body}) {
       
         
           
-          <div className={styles.supportFaqListContainer}>
+          <div className={styles.supportFaqListContainer} onClick={iconChangeHandler}>
             <div className={styles.supportFaqListHeaderContainer}>
               <p className={styles.supportFaqListHeader}>{title}</p>
-              <div className={styles.iconContainer} onClick={iconChangeHandler}>
+              <div className={styles.iconContainer} >
               {accordion ? (
                 <i className="fa-solid fa-minus faMinus" />
               ) : (

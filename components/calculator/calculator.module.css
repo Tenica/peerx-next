@@ -151,6 +151,13 @@ line-height: normal;
 
 .svgApp {
     width: 50%;
+    height: 50%;
+    
+}
+
+.svgApp2 {
+    width: 50%;
+    height: 50%; 
 }
 
 
@@ -311,7 +318,8 @@ line-height: normal;
 
 .calculatorContainerLogo {
     display: flex;
-    margin: 1rem 5rem;
+    width: 85%;
+    margin: 1rem 4rem;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -319,7 +327,13 @@ line-height: normal;
 }
 
 .svgApp {
-    width: 25%;
+    width: 30%;
+   height: 100%;
+}
+
+.svgApp2 {
+    width: 30%;
+    height: 100%;
 }
 
 }

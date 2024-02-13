@@ -1,3 +1,7 @@
+
+
+
+
 .mobileMainHeaderContainer {
     
     display: flex;
@@ -11,7 +15,7 @@
  .mobileMainHeaderContent {
  width: 100%;
  
- 
+ margin-top: 2rem
  }
                  
  .mobileHeadeImageContainer {
@@ -25,12 +29,14 @@
      width: 100%;
      height: 50vh;
      background-repeat: no-repeat;
-     background-position: 50% 50%;
+     background-position: top 20;
      background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid firebrick;
+  
  }
                      
  .mobile-header-title-header-container {

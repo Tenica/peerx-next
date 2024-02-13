@@ -12,10 +12,10 @@ function Accordion({title, body}) {
     }
 
     return (  <li className={styles.faqList}>
-        <div className={styles.faqListContainer}>
+        <div className={styles.faqListContainer}  onClick={iconChangeHandler}>
           <div className={styles.faqListHeaderContainer}>
             <p className={styles.faqListHeader}>{title}</p>
-            <div className={styles.plusIconContainer} onClick={iconChangeHandler}>
+            <div className={styles.plusIconContainer}>
             {accordion ?  <i className="fa-solid fa-minus faMinus" /> : <i className="fa-solid fa-plus faPlus" />}
             </div>
           </div>

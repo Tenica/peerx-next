@@ -24,10 +24,7 @@ function FooterMainBanner() {
           </div>
         </div>
         <div className={styles.downloadMobileImage}>
-          <div className={styles.downloadMobileImageLogo}>
-            <Image  width={50} height={50} src="images/Group (3).svg" alt="" />
-            <h4 className={styles.downloadMobileImageLogoName}>PeerX</h4>
-          </div>
+          
           <div className={styles.peerxImageContainer}>
             {/* <Image  width={100} height={100} src="/images/PeerX.png" class="peerx" alt=""> */}
           </div>
