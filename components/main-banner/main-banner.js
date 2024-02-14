@@ -20,6 +20,10 @@ function MainBanner() {
         Natoque lacinia convallis. Ipsum pharetra vel pulvinar vitae. Proin
         dis sem sit morbi lorem aliquam ac.
       </p>
+
+
+     
+
       <div className={styles.startButton}>
         <p className={styles.startButtonText}>Start Sending</p>
       </div>

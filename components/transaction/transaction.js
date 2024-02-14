@@ -53,7 +53,7 @@ function Transaction() {
           </div>
           <div className={`${styles.transactionCard} ${styles.transLast}`}>
             <div className={styles.transactionSvg}>
-              <Image  width={100} height={100} src="/images/Vector3.png" className={styles.transSvg} alt="" />
+              <img width={100} height={100} src="/images/Vector3.png" className={styles.transSvg} alt="" />
             </div>
             <h5>Trade on your team</h5>
             <div className={styles.transactionCardBody}>
