@@ -33,6 +33,7 @@
         height: 100%;
         z-index: -3;
         border-bottom: 0.9rem solid var(--peerX-red,  #D31E15);
+        margin-bottom: 4rem;
     }
 
     .headContent {
@@ -134,6 +135,7 @@
         border-radius: 0.3rem;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
     }
     
     .startButtonText {
