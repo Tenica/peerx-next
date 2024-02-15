@@ -378,7 +378,7 @@ text-transform: uppercase;
 
   .feedbackMainFormContainer {
     width: 70%;
-    
+    margin-left: 0rem;
     
   }
 
@@ -390,7 +390,7 @@ text-transform: uppercase;
   }
 
   .feedbackHeader {
-    margin: 0rem 3.5rem;
+    margin: 0 0 0.5rem 0;
   }
 
   .name {
