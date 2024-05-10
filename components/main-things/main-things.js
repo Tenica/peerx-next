@@ -25,8 +25,10 @@ function MainThings() {
           <div className={styles.card2}>
             <h1 className={styles.cardHeader}>Personal Transfers</h1>
             <p className={styles.cardBody}>
-              Ab dolores tenetur sit laborum sunt ad quis nisi et repellat
-              veritatis.
+            Create exciting financial memories when you send and receive money 
+            using the best exchange rates from the comfort of your home or office
+             to the other end of the world. Move funds between wallets in seconds 
+             with our peer exchange transfer option and have your money received directly to your Peer X account. 
             </p>
           </div>
         </div>
@@ -35,8 +37,9 @@ function MainThings() {
           <div className={styles.card3}>
             <h1 className={styles.cardHeader}>Business Transfers</h1>
             <p className={styles.cardBody}>
-              Ab dolores tenetur sit laborum sunt ad quis nisi et repellat
-              veritatis.
+            Nothing seals a business deal better than an efficient payment transaction. 
+            Our innovative fintech solutions ensures a detailed and well protected transaction 
+            process that keeps you updated with every step of your payment. Enjoy peace of mind knowing that your money is right where it should be! 
             </p>
           </div>
           <div className={styles.card4}>
@@ -50,8 +53,7 @@ function MainThings() {
           <div className={styles.card6}>
             <h1 className={styles.cardHeader}>Currency exchange</h1>
             <p className={styles.cardBody}>
-              Ab dolores tenetur sit laborum sunt ad quis nisi et repellat
-              veritatis.
+            You can rely on our efficient money transfer options to move funds across borders easily with the best conversion rates and at the quickest time possible
             </p>
           </div>
         </div>

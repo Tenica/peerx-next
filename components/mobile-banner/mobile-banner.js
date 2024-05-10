@@ -16,10 +16,7 @@ function MobileBanner() {
             </div>
             <div className={styles.mobileHeaderTitleSubtitleContainer}>
               <p className={styles.mobileHeaderSubtitle}>
-                Lorem ipsum dolor sit amet consectetur. Scelerisque urna ac
-                scelerisque sit sed lectus. Augue vestibulum donec malesuada
-                aenean natoque lacinia convallis. Ipsum pharetra vel pulvinar
-                vitae. Proin dis sem sit morbi lorem aliquam ac.
+              Share happiness with loved ones when you make transfers with our easy and reliable payment options. Send money abroad and have it delivered instantly to your beneficiary. Try it now! 
               </p>
             </div>
           </div>

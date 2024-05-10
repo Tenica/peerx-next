@@ -22,7 +22,9 @@ function MainProcess() {
                   <h5 className={styles.processHowItWorksBodyTitle}>Register</h5>
                 </div>
                 <p className={styles.processHowItWorksBody}>
-                  Download peerX from the apple app store or google play store
+                Download the PEER X App from the Apple App Store (For Apple devices) 
+                 or Google Play store (For Android Devices). 
+                 
                 </p>
               </div>
               
@@ -37,7 +39,8 @@ function MainProcess() {
                   <h5 className={styles.processHowItWorksBodyTitle}>Verify</h5>
                 </div>
                 <p className={styles.processHowItWorksBody}>
-                  Complete the sign up process, confirm your phone number
+                Complete an easy sign up process and confirm your identification details. 
+                Don’t worry, your information is safe with us! 
                 </p>
               </div>
               <div className={styles.lineSvgContainer}>
@@ -50,8 +53,7 @@ function MainProcess() {
                   <h5 className={styles.processHowItWorksBodyTitle}>Explore</h5>
                 </div>
                 <p className={styles.processHowItWorksBody}>
-                  Get your wallet account and enjoy your fast transaction all in
-                  one app
+                Once your sign up is complete, you’re now free to send and receive money with ease and great convenience. 
                 </p>
               </div>
             </div>

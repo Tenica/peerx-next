@@ -22,8 +22,7 @@ function Transaction() {
             <h5>Always Protected</h5>
             <div className={styles.transactionCardBody}>
               <p>
-                Ab corrupti maxime quo mollitia voluptas ab culpa quia. Aut culpa
-                galisum nam nobis labore est quia necessitatibus.
+              Ensure safe and super secure transactions that are fully encrypted. 
               </p>
             </div>
           </div>
@@ -34,8 +33,7 @@ function Transaction() {
             <h5>Get Reward</h5>
             <div className={styles.transactionCardBody}>
               <p id="transActiveBody">
-                Ab corrupti maxime quo mollitia voluptas ab culpa quia. Aut culpa
-                galisum nam nobis labore est quia necessitatibus.
+              Take advantage of our exclusive discounts and bonuses whenever you refer your friends! 
               </p>
             </div>
           </div>
@@ -46,8 +44,7 @@ function Transaction() {
             <h5>No Hidden fees</h5>
             <div className={styles.transactionCardBody}>
               <p>
-                Ab corrupti maxime quo mollitia voluptas ab culpa quia. Aut culpa
-                galisum nam nobis labore est quia necessitatibus.
+              Make easy and quick transfers without any extra or hidden charges. 
               </p>
             </div>
           </div>
@@ -55,11 +52,10 @@ function Transaction() {
             <div className={styles.transactionSvg}>
               <img width={100} height={100} src="/images/Vector3.png" className={styles.transSvg} alt="" />
             </div>
-            <h5>Trade on your team</h5>
+            <h5>Convenient Transactions</h5>
             <div className={styles.transactionCardBody}>
               <p>
-                Ab corrupti maxime quo mollitia voluptas ab culpa quia. Aut culpa
-                galisum nam nobis labore est quia necessitatibus.
+              Enjoy Seamless  payment options that are easy and tension free
               </p>
             </div>
           </div>

@@ -18,11 +18,10 @@ function Services() {
           </div>
           <div className={styles.serviceHeaderSubtitle}>
             <p className={styles.mainServiceSubtitle}>
-              Lorem ipsum dolor sit amet, <br />
-              consectetur adipiscing elit. Feugiat nulla suspendisse tortor aenean dis
-              placerat.
-              <br />
-              Scelerisque imperdiet vitae dolor non aliquam. Malesuada.
+            Visiting countries for fun, seeking better opportunities or creating diverse business 
+            environments <br /> abroad should not bear extra financial hurdles. Enjoy instant international money transfers,<br />
+            quick money exchange transactions at fair rates and complete access to funds anywhere you go. 
+             
             </p>
           </div>
         </section>
@@ -36,13 +35,13 @@ function Services() {
                 </div>
                 <div className={styles.serviceTextsContainer}>
                   <p className={styles.serviceTexts}>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                  Distance should not be a hurdle when it comes to moving your money. 
+                  Conveniently send and receive money across borders with efficient speed and great ease.
+                  
                   </p>
                   <p className={styles.serviceTexts}>
-                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-                    sem. Nulla consequat massa quis enim.
+                  With a totally free sign up process, you’re able to own a PEER X multi-currency account 
+                  that allows you to instantly send money abroad in record time.
                   </p>
                 </div>
               </div>

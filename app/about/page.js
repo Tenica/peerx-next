@@ -14,12 +14,16 @@ function About() {
           </div>
           <div className={styles.aboutHeaderSubtitle}>
             <p className={styles.mainAboutSubtitle}>
-              Lorem ipsum dolor sit amet, <br />
-              consectetur adipiscing elit. Feugiat nulla suspendisse tortor aenean dis
-              placerat.
+         
+              
+              PEER X is a financial service Company founded to aid immigrants resident in
+              Canada <br /> 
+              and other parts of the world make monetary transfers and payments across borders..
               <br />
-              Scelerisque imperdiet vitae dolor non aliquam. Malesuada.
             </p>
+
+            <p className={styles.mainAboutSubtitle}>The company employs the use of cutting edge technology to drive innovative payment   
+           <br/>solutions thereby ensuring safe and reliable financial transactions.</p>
           </div>
         </section>
 
@@ -30,8 +34,10 @@ function About() {
             </div>
             <div className={styles.peerXDriveSubtitleContainer}>
               <p className={styles.peerXDriveSubtitle}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
-                suspendisse tortor aene.
+              The essence of international money transfers lies in fostering stronger family ties 
+              and community relationships. Achieving financial inclusion and empowerment globally 
+              necessitates a seamless structure for money exchange, ensuring easy access to cross-border
+               payment solutions with swift transactions.
               </p>
             </div>
           </div>
@@ -49,8 +55,8 @@ function About() {
                   <p className={styles.peerXMotivationCardTitle}>Open Source</p>
                 </div>
                 <p className={styles.peerXMotivationCardBody}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh
-                  urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                We cater to millions of individuals across the globe and aid them to make hassle 
+                free money transfers to their loved ones anywhere, anytime. 
                 </p>
               </div>
             </div>
@@ -67,8 +73,8 @@ function About() {
                   <p className={styles.peerXMotivationCardTitle}>worldwide</p>
                 </div>
                 <p className={styles.peerXMotivationCardBody}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh
-                  urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                With a security that never sleeps, we ensure that your personal
+                 information and transactions are closely encrypted to protect you and your transactions. 
                 </p>
               </div>
             </div>
@@ -87,8 +93,7 @@ function About() {
                   <p className={styles.peerXMotivationCardTitle}>Transparent</p>
                 </div>
                 <p className={styles.peerXMotivationCardBody}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh
-                  urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                Our support team is readily available 24/7 to give you the required assistance whenever you need it. 
                 </p>
               </div>
             </div>
@@ -105,8 +110,11 @@ function About() {
                   <p className={styles.peerXMotivationCardTitle}>Community Driven</p>
                 </div>
                 <p className={styles.peerXMotivationCardBody}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh
-                  urna in proin dui purus bibendum cras. Morbi cursus nunc.
+                We are community driven and our customers are the reason we exist. 
+                Join our amazing community of customers and influencers to create an 
+                exciting financial experience for yourself and your loved ones. 
+
+              
                 </p>
               </div>
             </div>
@@ -121,18 +129,15 @@ function About() {
               </div>
               <div className={styles.missionStatementBodyContainer}>
                 <p className={styles.missionStatementBody}>
-                  Vulputate pellentesque proin facilisis dignissim gravida sed
-                  faucibus nunc. Nunc eget pharetra, in vitae porta lacus. Elit in
-                  nisl, in quis nulla tellus suscipit id. Semper velit odio cras
-                  pretium tristique habitant. Elit eu penatibus congue orci turpis.
-                  Enim diam id.
+                We are dedicated to offering an exceptional user experience that grants you Easy, 
+                safe and conveniently quick transfer options across the world. We seek to get rid of 
+                the barriers that exist between individuals and their ability to optimally make financial 
+                transactions across borders. 
                 </p>
                 <p className={styles.missionStatementBody2}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient
-                  lorem purus justo, ultricies. Sollicitudin odio elementum urna
-                  placerat lacus, vulputate. Non malesuada viverra et ultrices cras.
-                  Tincidunt tempor, blandit augue ac feugiat. Praesent arcu tempus
-                  ullamcorper quisque in. Magna fermentum, lacus, fermentum arcu.
+                In creating easy, quick and reliable payment options,
+                we offer people in all parts of the world an opportunity to stay financially connected 
+                with their families, communities and passion. 
                 </p>
               </div>
             </div>
@@ -153,11 +158,9 @@ function About() {
               </div>
               <div className={styles.visionStatementBodyContainer}>
                 <p className={styles.visionStatementBody}>
-                  Vulputate pellentesque proin facilisis dignissim gravida sed
-                  faucibus nunc. Nunc eget pharetra, in vitae porta lacus. Elit in
-                  nisl, in quis nulla tellus suscipit id. Semper velit odio cras
-                  pretium tristique habitant. Elit eu penatibus congue orci turpis.
-                  Enim diam id.
+                To become the world’s premium provider of a simplified, secure and 
+                efficient global remittance service, enriched by innovative payment 
+                solutions and driving financial inclusion and empowerment across the globe. 
                 </p>
                 <p className={styles.visionStatementBody2}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient
