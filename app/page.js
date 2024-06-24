@@ -1,5 +1,4 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
 import Header from "@/components/header";
 import { Fragment } from "react";
 import Script from "next/script";
@@ -14,6 +13,8 @@ import MainThings from "@/components/main-things/main-things";
 import Transaction from "@/components/transaction/transaction";
 import FooterMobileBanner from "@/components/footer-mobile-banner/footer-mobile-banner";
 import FooterMainBanner from "@/components/footer-main-banner/footer-main-banner";
+import Testimonial from "@/components/testimonial/testimonial";
+
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
 
         <Transaction />
 
-        <Faq />
+        <Testimonial />
 
         <FooterMainBanner />
 

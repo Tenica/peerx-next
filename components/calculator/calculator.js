@@ -7,11 +7,11 @@ function Calculator() {
         <section className={styles.calculatorContainer}>
         <div className={styles.calculatorContainerCalculator}>
           <div className={styles.calculatorContainerHeader}>
-            <p className={styles.calculatorHeader}>
+            <h1 className={styles.calculatorHeader}>
               Get quick conversion{" "}
               <span className={styles.calculatorItalic}>rates</span> and
               <br /> send your money now
-            </p>
+            </h1>
           </div>
           <div className={styles.calculatorContainerForm}>
             <div className={styles.formContainer}>
@@ -49,8 +49,21 @@ function Calculator() {
             </div>
           </div>
           <div className={styles.calculatorContainerLogo}>
+
+            <div className={styles.calculatorContainerText}>
+            <p className={styles.getPeerXApp}>Get the PeerX app</p>
+            </div>
+            
+            
+            <div className={styles.svgContainer1}>
             <Image width={500} height={500} src="images/Group (2).svg" alt="android" className={styles.svgApp} />
-            <Image width={500} height={500} src="images/Group (1).svg" alt="ios" className={styles.svgApp2} />
+            </div>
+
+            <div className={styles.svgContainer}>
+            <Image width={500} height={500} src="images/Group (1).svg" alt="ios"  className={styles.svgApp2} />
+            </div>
+           
+            
           </div>
         </div>
       </section> );
