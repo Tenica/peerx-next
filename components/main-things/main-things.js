@@ -25,7 +25,8 @@ function MainThings() {
           <div className={styles.card2}>
             <h1 className={styles.cardHeader}>Personal Transfers</h1>
             <p className={styles.cardBody}>
-            Create exciting financial memories when you make transfers with our easy and reliable payment options. Move funds between wallets with our peer to peer transfer option and have your money delivered in seconds!
+            Create exciting financial memories when you make transfers with our easy and reliable payment options. 
+            <br/>Move funds between wallets with our peer to peer transfer option and have your money delivered in seconds!
             </p>
           </div>
         </div>

@@ -170,6 +170,22 @@
         margin: 2rem 0 3rem 0;
     
     }
+    
+
+    .cardBody {
+       
+        margin-top: 0;
+        font-size: 0.6rem; 
+        color: var(--peerX-white, #FFF);
+        font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
+        font-size: 0.95rem;
+        font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+     
+    text-align: center;
+  
+    }
 
 
 
