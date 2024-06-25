@@ -56,7 +56,7 @@ function MainBanner() {
         setTransitionDirection(newIndex === 0 ? 'previous' : 'next');
         return newIndex;
       });
-    }, 3000);
+    }, 6000);
 
     // Cleanup interval on component unmount
     return () => clearInterval(interval);
