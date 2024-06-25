@@ -54,12 +54,10 @@ cursor: pointer;
 
 .faqSubtitleContainer {
 display: flex;
+flex-direction: row;
 justify-content: center;
 align-items: center;
-margin: 1rem 6rem 0rem 6rem;
-background-color: hsl(252, 95%, 88%);
-width: 50%;
-border-radius: 0.7rem;
+width: 100%;
 white-space: nowrap;
 overflow: hidden;
 
@@ -67,6 +65,7 @@ overflow: hidden;
 }
 .faqSubtitle {
     color: #5F44EC;
+    background-color: hsl(252, 95%, 88%);
     font-family: var(--peerX-Inter-Sans, 'Inter', sans-serif);
     font-size: 0.7rem;
     font-style: normal;
@@ -74,6 +73,8 @@ overflow: hidden;
     line-height: normal;
     letter-spacing: -0.72px;
     padding: 0.3rem 0.7rem;
+    border-radius: 0.7rem;
+    margin-bottom: 1rem;
     
    /* Linear Gradient */
 
@@ -257,6 +258,7 @@ box-shadow: 0px 2px 2px 0px rgba(72, 80, 88, 0.08);
 }
 
 .faqSubtitleContainer {
+width: 50%;
 margin-top: 1rem;
 display: flex;
 justify-content: center;
