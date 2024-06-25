@@ -9,10 +9,11 @@ function FooterMobileBanner() {
         <div className={styles.responsiveDownloadMobileContent}>
           <div className={styles.responsiveMobileDescriptionHeader}>
             <h1 className={styles.responsiveMobileTitle}>
-              The future of <span>money</span> exchange
+              The future of <span className={styles.italic}>money</span> exchange and transfer
             </h1>
             <p className={styles.responsiveMobileBody}>
-              Lorem ipsum dolor sit amet consectetur.
+            Give us a try to today and see for how fast,<br/>
+            reliable, secure our app can be.
             </p>
           </div>
           

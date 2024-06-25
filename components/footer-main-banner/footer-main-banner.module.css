@@ -5,12 +5,23 @@
 
 
 @media (min-width: 47.5rem) {
+
+    .italic {
+
+        color: var(--peerX-red,  #D31E15);
+    font-family: Figma Hand;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    }
   
     .downloadMobileContainer {
-        width: 100%;
+        width: 86%;
         display: flex;
         flex-direction: row;
-        background: #111011;
+        
+        
     }
     
     .downloadMobileDescription {
@@ -19,9 +30,11 @@
         display: flex;
         flex-direction: column;
         margin: 4rem 2rem;
-        align-items: center;
-
+        align-items: flex-start;
+        justify-content: center;
     }
+        
+    
     
     .downloadMobileDescriptionHeader {
      padding-top: 0rem;
@@ -90,7 +103,14 @@
     .peerx {
         width: 100%;
     }
-    
+
+   .doRight {
+    display: flex;
+    width: 100%;
+    background: #111011;
+    justify-content: center;
+    align-items: center;
+   }
 
     /* download mobile start */
     /* .downloadMobileImageLogo {

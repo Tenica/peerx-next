@@ -1,18 +1,21 @@
 import Image from "next/image";
 import styles from './footer-main-banner.module.css'
+import React from "react";
 
 
 
 function FooterMainBanner() {
-    return ( <section className={styles.downloadMobileContainer}>
+    return ( <div className={styles.doRight}>
+      <section className={styles.downloadMobileContainer}>
         <div className={styles.downloadMobileDescription}>
           
           <div className={styles.downloadMobileDescriptionHeader}>
             <h1 className={styles.mobileTitle}>
-              The future of <span>money</span>
-              <br /> exchange
+              The future of <span className={styles.italic}>money</span>
+              <br /> exchange and transfer.
             </h1>
-            <p className={styles.mobileBody}>Lorem ipsum dolor sit amet consectetur.</p>
+            <p className={styles.mobileBody}>Give us a try to today and see for how fast,<br/>
+            reliable, secure our app can be.</p>
           </div>
           <div className={styles.downloadMobileSvgs}>
             <div className={styles.downloadMobileAndroid}>
@@ -29,7 +32,9 @@ function FooterMainBanner() {
             {/* <Image  width={100} height={100} src="/images/PeerX.png" class="peerx" alt=""> */}
           </div>
         </div>
-      </section> );
+      </section> 
+      </div>
+    );
 }
 
 export default FooterMainBanner;

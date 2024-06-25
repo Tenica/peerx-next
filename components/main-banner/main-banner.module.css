@@ -119,6 +119,7 @@
     
     
     .italic {
+        
         color: var(--peerX-red,  #D31E15);
     font-family: Figma Hand;
     font-size: 50px;
