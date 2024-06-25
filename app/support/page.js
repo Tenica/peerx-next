@@ -116,8 +116,7 @@ function Support() {
                   </div>
                   <div className={styles.feedbackMainContactBodyContainer}>
                     <p className={styles.feedbackMainContactBody}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
-                      pharetra elementum sit id sagittis non donec egestas.
+                    We would love to hear from you too! Send a message on any of our social media platforms below!.
                     </p>
                   </div>
                   <div className={styles.feedbackMainContactListContainer}>
@@ -132,7 +131,7 @@ function Support() {
                           />
                         </div>
                         <div className={styles.contactListText}>
-                          <p>contact@example.com</p>
+                          <p>Feedback@novapeerx.com</p>
                         </div>
                       </div>
                       <div className={styles.feedbackMainContactList}>
@@ -145,7 +144,7 @@ function Support() {
                           />
                         </div>
                         <div className={styles.contactListText}>
-                          <p>contact@example.com</p>
+                          <p>Complaints@novapeerx.com</p>
                         </div>
                       </div>
                       <div className={styles.feedbackMainContactList}>
@@ -158,7 +157,7 @@ function Support() {
                           />
                         </div>
                         <div className={styles.contactListText}>
-                          <p>contact@example.com</p>
+                          <p>Info@novapeerx.com</p>
                         </div>
                       </div>
                     </div>
@@ -174,16 +173,15 @@ function Support() {
               <p className={styles.supportFaqHeader}>FAQ</p>
             </div>
             <div className={styles.supportFaqListsContainer}>
-            <SupportAccordion title={"Question 1"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
+            <SupportAccordion title={"WHAT IS PEER X"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
             pharetra elementum sit id sagittis non donec egestas.`}/>
 
-            <SupportAccordion title={"Question 2"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
+            <SupportAccordion title={"WHAT DO I NEED TO SIGN UP?"} body={`Our sign up process is super easy. With just your email and phone number, you’re on your way to getting a PEER X account.`}/>
+
+            <SupportAccordion title={"HOW MANY ACCOUNTS CAN I CREATE?"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
             pharetra elementum sit id sagittis non donec egestas.`}/>
 
-            <SupportAccordion title={"Question 3"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
-            pharetra elementum sit id sagittis non donec egestas.`}/>
-
-            <SupportAccordion title={"Question 4"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
+            <SupportAccordion title={"HOW QUICKLY CAN I GET SUPPORT?"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
             pharetra elementum sit id sagittis non donec egestas.`}/>
 
             <SupportAccordion title={"Question 5"} body={` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui
