@@ -57,19 +57,7 @@ margin-top: 4rem
 
 }
 
-.mainServiceSubtitle {
-    color: #000;
-    text-align: center;
 
-/* Desktop/body */
-    font-family: "DM Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32.004px; /* 177.8% */
-    margin: 0rem;
-    padding: 0rem 2rem;
-}
 
 
 .serviceBodyContainer {
@@ -80,6 +68,17 @@ margin-top: 4rem
     margin: 2rem 0rem
  
 }
+
+.serviceSingleBodyContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem
+  
+}
+
+
 
 .serviceContentContainer {
     width: 80%;
@@ -126,15 +125,35 @@ width: 100%;
 margin: 0rem;
 }
                        
-.serviceHeader {
+.serviceHeader, .serviceHeader1 {
+    display:none;
+   
+}
+
+.serviceHeaderMobile {
     color:  #091133;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: "DM Sans";
-    font-size: 36px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 550;
     line-height: 48px; /* 133.333% */
     margin: 0rem 1rem;
+    text-align: center;
+}
+
+.serviceHeaderMobile1 {
+    display: flex;
+    justify-content: flex-start;
+    color:  #091133;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 48px; /* 133.333% */
+    margin: 0rem 1rem;
+
 }
                   
     
@@ -214,15 +233,18 @@ line-height: 18px; /* 150% */
 
 .serviceQuoteContent {
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 2rem;
-    background: #D31E15;
+    background: #FDEDED;
     height: 100%;
     display: flex;
     padding: 1.5rem
 }
 
 .serviceQuote {
-color: #FFF;
+color: #000000;
 font-family: "DM Sans";
 font-size: 22px;
 font-style: normal;
@@ -312,10 +334,85 @@ line-height: 32.004px;
 text-decoration-line: underline;
 }
 
+.serviceFinalContentContainer {
+    width: 80%;
+    justify-content: center;
+
+    
+   }
+
+   .mainServiceSubtitle {
+    display: none;
+   }
+
+   .mainServiceSubtitleMobile {
+    display: flex;
+    color: #000;
+    text-align: center;
+
+/* Desktop/body */
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.004px; /* 177.8% */
+    margin: 0rem;
+    padding: 0rem 2rem;
+    text-align: justify;
+   }
+
 
 
 @media (min-width: 47.5rem) {
 
+    .mainServiceSubtitleMobile {
+      display: none;
+    }
+    .mainServiceSubtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        text-align: center;
+    
+    /* Desktop/body */
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32.004px; /* 177.8% */
+        margin: 0rem;
+        padding: 0rem 2rem;
+    }
+
+    .serviceHeaderMobile1, .serviceHeaderMobile {
+        display:none;
+       
+    }
+
+    .serviceHeader1 {
+        display: flex;
+        color:  #091133;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "DM Sans";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: 48px; /* 133.333% */
+        margin: 3rem 1rem 0rem 1rem;
+    }
+
+    .serviceHeader {
+        display: flex;
+        color:  #091133;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: "DM Sans";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: 48px; /* 133.333% */
+        margin: 0rem 1rem;
+    }
 
 
     .serviceContentContainer {
@@ -353,6 +450,30 @@ text-decoration-line: underline;
           
             margin: 0rem 4rem;
             padding: 2rem 4rem;
+        }
+
+        .serviceSingleBodyContainer {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       .serviceFinalContentContainer {
+        width: 80%;
+        justify-content: center;
+
+        
+       }
+
+        .serviceFinalSingleFeaturesContainer {
+          display: flex;
+          width: 50%;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          margin: 0rem;
+         
         }
 }
                

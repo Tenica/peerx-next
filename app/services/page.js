@@ -18,8 +18,17 @@ function Services() {
           </div>
           <div className={styles.serviceHeaderSubtitle}>
             <p className={styles.mainServiceSubtitle}>
+            
             Visiting countries for fun, seeking better opportunities or creating diverse business 
             environments <br /> abroad should not bear extra financial hurdles. Enjoy instant international money transfers,<br />
+            quick money exchange transactions at fair rates and complete access to funds anywhere you go. 
+             
+            </p>
+
+            <p className={styles.mainServiceSubtitleMobile}>
+            
+            Visiting countries for fun, seeking better opportunities or creating diverse business 
+            environments  abroad should not bear extra financial hurdles. Enjoy instant international money transfers,
             quick money exchange transactions at fair rates and complete access to funds anywhere you go. 
              
             </p>
@@ -31,7 +40,8 @@ function Services() {
             <div className={styles.serviceFeaturesContainer}>
               <div className={styles.serviceFeatures}>
                 <div className={styles.serviceHeaderTextContainer}>
-                  <h1 className={styles.serviceHeader}>Light, Fast &amp; Powerful</h1>
+                  <h1 className={styles.serviceHeader}>Money Transfers Across<br/>Borders At the Best<br/>Conversion Rates</h1>
+                  <h1 className={styles.serviceHeaderMobile}>Money Transfers Across Borders At the Best Conversion Rates</h1>
                 </div>
                 <div className={styles.serviceTextsContainer}>
                   <p className={styles.serviceTexts}>
@@ -39,120 +49,76 @@ function Services() {
                   Conveniently send and receive money across borders with efficient speed and great ease.
                   
                   </p>
+                 
+                </div>
+
+                <div className={styles.serviceHeaderTextContainer}>
+                  <h5 className={styles.serviceHeaderMobile1}>International Money Transfers</h5>
+                  <h5 className={styles.serviceHeader1}>International Money Transfers</h5>
+                </div>
+
+                <div className={styles.serviceTextsContainerMobile}>
                   <p className={styles.serviceTexts}>
-                  With a totally free sign up process, you’re able to own a PEER X multi-currency account 
-                  that allows you to instantly send money abroad in record time.
+                  Distance should not be a hurdle when it comes to moving your money. 
+                  Conveniently send and receive money across borders with efficient speed and great ease.
+                  
                   </p>
+                 
                 </div>
+
+                
+
+                
+              
               </div>
-              <div className={styles.serviceCardsContainer}>
-                <div className={styles.serviceCardSection}>
-                  <div className={styles.serviceCard}>
-                    <div className={styles.serviceCardSvg}>
-                    <Image
-                       height={100}
-                       width={100}
-                        src="images/s/service-icon1.svg"
-                        className={styles.serviceSvg}
-                        alt=""
-                      />
-                    </div>
-                    <h5 className={styles.serviceCardTitle}>Title Goes Here</h5>
-                    <p className={styles.serviceCardBody}>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                      commodo ligula eget dolor.
-                    </p>
-                  </div>
-                  <div className={styles.serviceCard}>
-                    <div className={styles.serviceCardSvg}>
-                    <Image
-                    height={100}
-                    width={100}
-                        src="images/s/service-icon2.svg"
-                        className={styles.serviceSvg}
-                        alt=""
-                      />
-                    </div>
-                    <h5 className={styles.serviceCardTitle}>Title Goes Here</h5>
-                    <p className={styles.serviceCardBody}>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                      commodo ligula eget dolor.
-                    </p>
-                  </div>
-                </div>
-                <div className={styles.serviceCardSection}>
-                  <div className={styles.serviceCard}>
-                    <div className={styles.serviceCardSvg}>
-                    <Image
-                    height={100}
-                    width={100}
-                        src="images/s/service-icon1.svg"
-                        className={styles.serviceSvg}
-                        alt=""
-                      />
-                    </div>
-                    <h5 className={styles.serviceCardTitle}>Title Goes Here</h5>
-                    <p className={styles.serviceCardBody}>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                      commodo ligula eget dolor.
-                    </p>
-                  </div>
-                  <div className={styles.serviceCard}>
-                    <div className={styles.serviceCardSvg}>
-                      <Image
-                        height={100}
-                        width={100}
-                        src="images/s/service-icon1.svg"
-                        className={styles.serviceSvg}
-                        alt=""
-                      />
-                    </div>
-                    <h5 className={styles.serviceCardTitle}>Title Goes Here</h5>
-                    <p className={styles.serviceCardBody}>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                      commodo ligula eget dolor.
-                    </p>
-                  </div>
-                </div>
-              </div>
+
+             
             </div>
+           
           </div>
+          
         </section>
+        <section className={styles.serviceBodyContainer}>
+        <div className={styles.serviceContentContainer}>
+         <div className={styles.serviceFinalFeaturesContainer}>
+         <h5 className={styles.serviceHeaderMobile1}>PeerX Money Exchange</h5>
+         <h5 className={styles.serviceHeader1}>PeerX Money Exchange</h5>
+         <p className={styles.serviceTexts}>Buy or sell  currencies directly from other PEER X  users at your own determined rate and have the funds delivered straight to your PEER X wallet.</p>
+         </div>
+
+         <div className={styles.serviceFinalFeaturesContainer}>
+         <h5 className={styles.serviceHeaderMobile1}>Swift Payment</h5>
+         <h5 className={styles.serviceHeader1}>Swift Payment</h5>
+         <p className={styles.serviceTexts}>Get rid of the financial delays that plague personal and business transactions with an even faster transfer option that is reliable and well protected.</p>
+         </div>
+
+         </div>
+         
+        </section>
+
+        <section className={styles.serviceSingleBodyContainer}>
+        <div className={styles.serviceFinalContentContainer}>
+         <div className={styles.serviceFinalSingleFeaturesContainer}>
+         <h5 className={styles.serviceHeaderMobile1}>Secure Transactions</h5>
+         <h5 className={styles.serviceHeader1}>Secure Transactions</h5>
+         
+         <p className={styles.serviceTexts}>Every step of your transfer process is backed with a well protected encryption that keeps you and your funds safe.</p>
+         
+         </div>
+
+         </div>
+         
+        </section>
+
+
         <section className={styles.serviceQuoteContainer}>
           <div className={styles.serviceQuoteContent}>
             <p className={styles.serviceQuote}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-              veniam
+            A world without financial borders, you imagine it, we create it.
             </p>
           </div>
         </section>
-        <section className={styles.serviceFinalContainer}>
-          <div className={styles.serviceFinalContent}>
-            <div className={styles.serviceFinalHeaderContainer}>
-              <h1 className={styles.serviceFinalTitle}>
-                Learn what you need to know before you invest in a virtual currency
-              </h1>
-            </div>
-            <div className={styles.serviceFinalBodyContainer}>
-              <p className={styles.serviceFinalBody}>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint{" "}
-                <span className={styles.serviceFinalSpan}>occaecat cupidatat</span> non
-                proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.
-              </p>
-              <p className={styles.serviceFinalBody}>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut{" "}
-                <span className={styles.serviceFinalSpan1}>labore et dolore</span> magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-        </section>
+
       </main>
       <Footer />
       </Fragment>

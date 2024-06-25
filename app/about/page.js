@@ -14,11 +14,10 @@ function About() {
           </div>
           <div className={styles.aboutHeaderSubtitle}>
             <p className={styles.mainAboutSubtitle}>
-         
               
               PEER X is a financial service Company founded to aid immigrants resident in
               Canada <br /> 
-              and other parts of the world make monetary transfers and payments across borders..
+              and other parts of the world make monetary transfers and payments across borders.
               <br />
             </p>
 
@@ -34,10 +33,8 @@ function About() {
             </div>
             <div className={styles.peerXDriveSubtitleContainer}>
               <p className={styles.peerXDriveSubtitle}>
-              The essence of international money transfers lies in fostering stronger family ties 
-              and community relationships. Achieving financial inclusion and empowerment globally 
-              necessitates a seamless structure for money exchange, ensuring easy access to cross-border
-               payment solutions with swift transactions.
+
+              For every international money transfer,, an opportunity to strengthen family bonds and community connections is created. Hence, the need to achieve financial inclusion and empowerment across borders calls for a seamless money exchange structure to ensure that individuals  have the easiest access to cross border payment options at a quick pace.
               </p>
             </div>
           </div>
@@ -79,7 +76,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className={styles.peerXMotivationCardContainer}>
+          <div className={`{styles.peerXMotivationCardContainer} ${styles.section2}`}>
             <div className={styles.peerXMotivationCard}>
               <div className={styles.peerXMotivationCardSvgContainer}>
                 <img
@@ -88,7 +85,7 @@ function About() {
                   alt=""
                 />
               </div>
-              <div className={styles.peerXMotivationCardBodyContainer}>
+              <div className={`${styles.peerXMotivationCardBodyContainer} `}>
                 <div className={styles.peerXMotivationTitleContainer}>
                   <p className={styles.peerXMotivationCardTitle}>Transparent</p>
                 </div>
@@ -162,45 +159,12 @@ function About() {
                 efficient global remittance service, enriched by innovative payment 
                 solutions and driving financial inclusion and empowerment across the globe. 
                 </p>
-                <p className={styles.visionStatementBody2}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient
-                  lorem purus justo, ultricies. Sollicitudin odio elementum urna
-                  placerat lacus, vulputate. Non malesuada viverra et ultrices cras.
-                  Tincidunt tempor, blandit augue ac feugiat. Praesent arcu tempus
-                  ullamcorper quisque in. Magna fermentum, lacus, fermentum arcu.
-                </p>
+             
               </div>
             </div>
           </div>
         </section>
-        <section className={styles.missionStatementContainer}>
-          <div className={styles.missionStatementTextContainer}>
-            <div className={styles.missionStatementTextGroup}>
-              <div className={styles.missionStatementTitleContainer}>
-                <p className={styles.missionStatementTitle}>Our Story</p>
-              </div>
-              <div className={styles.missionStatementBodyContainer}>
-                <p className={styles.missionStatementBody}>
-                  Vulputate pellentesque proin facilisis dignissim gravida sed
-                  faucibus nunc. Nunc eget pharetra, in vitae porta lacus. Elit in
-                  nisl, in quis nulla tellus suscipit id. Semper velit odio cras
-                  pretium tristique habitant. Elit eu penatibus congue orci turpis.
-                  Enim diam id.
-                </p>
-                <p className={styles.missionStatementBody2}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Parturient
-                  lorem purus justo, ultricies. Sollicitudin odio elementum urna
-                  placerat lacus, vulputate. Non malesuada viverra et ultrices cras.
-                  Tincidunt tempor, blandit augue ac feugiat. Praesent arcu tempus
-                  ullamcorper quisque in. Magna fermentum, lacus, fermentum arcu.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className={styles.missionStatementImageContainer}>
-            <img src="images/a/story.png" className={styles.missionImg} alt="" />
-          </div>
-        </section>
+        
       </main>
       <Footer />
       </Fragment>
