@@ -16,212 +16,186 @@ function Terms() {
     </div>
     <div className={styles.termsAndConditionsHeaderSubtitle}>
       <p className={styles.mainTermsAndConditionsSubtitle}>
-        Lorem ipsum dolor sit amet, <br />
-        consectetur adipiscing elit. Feugiat nulla suspendisse tortor aenean dis
-        placerat.
-        <br />
-        Scelerisque imperdiet vitae dolor non aliquam. Malesuada.
+    
+     These terms and conditions outline the rules and regulations for the use<br />
+     of Nova PeerX Incorporation 's Website, located at https://peerx-<br/>
+     next.vercel.app/.
       </p>
     </div>
   </section>
   <section className={styles.termsAndConditionContainer}>
     <article className={styles.termsAndConditionBody}>
       <p>
-        Lorem ipsum dolor sit amet consectetur. Elit pellentesque aliquam
-        malesuada nibh justo pharetra. Amet phasellus nulla dolor facilisis non.
-        Pulvinar arcu massa eu phasellus. Eget nec ultrices vivamus velit
-        facilisis tellus donec. Posuere sapien pellentesque et convallis at
-        metus. Rhoncus gravida vulputate egestas tincidunt. Eget tellus lectus
-        leo sed ac curabitur sed rhoncus laoreet. Quisque risus semper a nisl.
-        Fermentum justo aliquet sit enim gravida vel vitae egestas gravida.
-        Viverra malesuada risus sit urna egestas gravida. Vulputate risus etiam
-        dolor tellus ac ut. In penatibus facilisis tincidunt nibh volutpat.
-        Tristique at ut morbi mi tellus senectus.
+      By accessing this website we assume you accept these terms and conditions. Do not continue to use PeerX if you do not agree to take all of the terms and conditions stated on this page.
       </p>
     </article>
     <article className={styles.termsAndConditionBody}>
       <p>
-        Eget habitasse a lectus tellus morbi mauris placerat volutpat.
-        Ullamcorper id commodo malesuada velit commodo augue mauris lectus. Odio
-        consequat nisi vel duis arcu. Congue posuere aliquet semper arcu nec
-        dolor mattis vitae. Et elit leo scelerisque ornare nulla at varius
-        placerat accumsan. Sit elit arcu malesuada tellus. Blandit donec urna
-        urna sit sed. Diam natoque aliquam vehicula accumsan consequat laoreet.
-        Non aliquam faucibus nisl nulla sed. Nisi volutpat a diam curabitur
-        aliquam non dignissim. Nisl cras a vitae neque pharetra sit urna
-        fermentum. Vel habitant vitae bibendum congue vitae nunc tellus.
-        Vulputate donec velit est luctus nunc in pharetra. Cras vestibulum quis
-        proin tincidunt fames. Neque diam facilisis ipsum elementum velit et ac.
-        Dui nec vitae amet magna et. Eget diam sed fermentum volutpat pretium
-        sem pharetra arcu. Venenatis cursus morbi turpis venenatis. A dolor nec
-        vestibulum nunc eu velit magna. Mauris eu arcu eros quis dui pulvinar.
-        Enim et est tellus lectus nullam sed tristique dolor est. Tincidunt
-        semper nam id elementum elit id a.
+      The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer 
+      Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website 
+      and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us",
+       refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. 
+       All terms refer to the offer, acceptance and consideration of payment necessary to undertake 
+       the process of our assistance to the Client in the most appropriate manner for the express 
+       purpose of meeting the Client's needs in respect of provision of the Company's stated services, 
+       in accordance with and subject to, prevailing law of ca. Any use of the above terminology or other 
+       words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable
+        and therefore as referring to same.
       </p>
     </article>
+    <article className={styles.termsAndConditionBody}>
+    <h1 className={styles.termsAndConditionTitle}>Cookies</h1>
+      <p>
+        {" "}
+        We employ the use of cookies. By accessing PeerX, you agreed to use cookies in agreement with the Nova PeerX Incorporation 's Privacy Policy. 
+        Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
+      </p>
+    </article>
+
+    <article className={styles.termsAndConditionBody}>
+    <h1 className={styles.termsAndConditionTitle}>License</h1>
+      <p>
+        {" "}
+        Unless otherwise stated, Nova PeerX Incorporation and/or its licensors own the intellectual property rights for all material on PeerX. All intellectual property rights are reserved. You may access this from PeerX for your own personal use subjected to restrictions set in these terms and conditions.
+      </p>  
+      <div className={styles.termsAndConditionListContainer}>
+      <p>You must not:</p>
+        <ul className={styles.termsAndConditionListHeader}>
+        <li>Republish material from PeerX</li>
+        <li>Sell, rent or sub-license material from PeerX</li>
+        <li>Reproduce, duplicate or copy material from PeerX</li>
+        <li>Redistribute content from PeerX</li>
+        </ul>
+      </div>
+    </article>
+
+    <article className={styles.termsAndConditionBody}>
+    <p>This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.w3schools.com" target="_blank">Free Terms and Condition Generator</a>.</p>
+    </article>
+
     <article className={styles.termsAndConditionBody}>
       <p>
         {" "}
-        Lorem amet est nisi habitasse aliquet mattis dictum blandit. Quam amet
-        convallis purus est ut ac. Ac id viverra aliquet gravida eget volutpat.
-        Sit ornare cursus habitasse pellentesque non facilisis venenatis
-        faucibus. Ultrices convallis pellentesque hendrerit congue tortor dui.
-        Convallis viverra porttitor felis nullam ultricies suscipit quis
-        tristique fusce. Et tortor donec varius fames sed molestie lorem arcu.
-        Tellus lectus enim egestas faucibus a sed. Fames at aliquet blandit eu
-        risus id imperdiet tortor. Vitae mollis mauris turpis turpis. In
-        bibendum habitasse in aliquam. Hendrerit tincidunt massa in ipsum
-        aliquet. Sed ut eu aliquet nulla amet. Et ultrices gravida pellentesque
-        ac aliquet sed faucibus. Vestibulum gravida diam vestibulum nullam diam
-        pulvinar. Dolor sed urna ut maecenas. Volutpat urna tellus dolor proin
-        ut et in cursus urna. Orci dui eget tortor et ut quis nisi purus fusce.
-        Placerat enim viverra in elementum. Volutpat convallis sapien feugiat id
-        justo eu. Nunc amet et faucibus sapien eu posuere commodo eu
-        scelerisque. Viverra interdum ut commodo sagittis sit lobortis nibh. Id
-        quam suscipit enim viverra ut tempor ac. Et in lacus sed in odio. Lectus
-        proin eu aliquam vel non in. Integer ultrices proin nisi lorem bibendum
-        hendrerit quam lectus ac. Tristique pretium sed imperdiet donec. Eget
-        dui mi volutpat mauris interdum egestas lacus pharetra. Venenatis velit
-        quis nunc euismod augue. Id magna consectetur at pellentesque
-        pellentesque in dolor. Magna orci et at donec urna egestas.
+        Nova PeerX Incorporation reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.{" "}
       </p>
+
+      <div className={styles.termsAndConditionListContainer}>
+      <p>You warrant and represent that:</p>
+        <ul className={styles.termsAndConditionListHeader}>
+        <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
+        <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
+        <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
+        <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity</li>
+        </ul>
+      </div>
+
+      <p>You hereby grant Nova PeerX Incorporation a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media</p>
     </article>
+
     <article className={styles.termsAndConditionBody}>
+    <h1 className={styles.termsAndConditionTitle}>Hyperlinking to our Content</h1>
+
+    <div className={styles.termsAndConditionListContainer}>
+    <p> The following organizations may link to our Website without prior written approval:</p>
+      <ul className={styles.termsAndConditionListHeader}>
+      <li>Government agencies;</li>
+      <li>Search engines;</li>
+      <li>News organizations;</li>
+      <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
+      <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+      </ul>
+    </div>
+
+   
+
+
+
+
+
       <p>
         {" "}
-        Massa sit tempor enim elit ligula nec mattis. Interdum duis diam egestas
-        volutpat elementum sit eu. Vel metus nulla morbi pretium tincidunt nisl.
-        In tincidunt arcu aliquet lorem morbi neque. Facilisis lacus neque
-        pellentesque ligula maecenas ultricies in. Amet tempor pellentesque amet
-        nisl volutpat enim gravida euismod. Tincidunt enim nibh tortor diam at.
-        Dictum diam consequat euismod vulputate amet. Eu tortor quisque dolor
-        aliquet netus faucibus magnis. Ut vitae tincidunt eu lectus. Dolor in
-        nisl proin quis et natoque urna erat. Rhoncus in sed blandit egestas
-        quis risus malesuada aliquam. Consequat vulputate fermentum netus
-        blandit purus pulvinar diam ante. Neque tortor venenatis et augue dis
-        cursus. Erat sit ac at sagittis bibendum in. Orci faucibus volutpat
-        dignissim mi vulputate arcu sit vitae. Ornare blandit eu gravida
-        vulputate eros ut eu quis. Lectus viverra id dis enim sed sit. Ut eu in
-        orci urna egestas convallis dolor volutpat.
+        
+These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party's site.
       </p>
+
+      <p> {" "}These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site.</p>
+
+      <p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Nova PeerX Incorporation . Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
     </article>
+
     <article className={styles.termsAndConditionBody}>
+    <p>Approved organizations may hyperlink to our Website as follows:</p>
+    <div className={styles.termsAndConditionListContainer}>
+      <ul className={styles.termsAndConditionListHeader}>
+      <li>By use of our corporate name; or;</li>
+      <li>By use of the uniform resource locator being linked to; or;</li>
+      <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party's site.</li>
+      </ul>
+      </div>
+
+
+
+
       <p>
         {" "}
-        Odio et cursus sed scelerisque bibendum. Consectetur aliquam eu vitae
-        rhoncus vel eget eleifend. Nibh pharetra varius sed id et at scelerisque
-        imperdiet congue. Egestas ullamcorper tempor amet quam consectetur
-        euismod nunc. Sit varius at adipiscing congue arcu. Mi ipsum mi feugiat
-        venenatis. Pharetra tristique mattis pulvinar turpis massa lorem
-        aliquam. Id quis vulputate leo faucibus suspendisse. Iaculis dignissim
-        amet phasellus massa ornare congue. Quisque libero adipiscing orci
-        sapien integer. Blandit vitae tellus diam tincidunt neque pulvinar urna
-        gravida mattis. Nisl ipsum ut commodo id adipiscing sodales integer et
-        risus. Egestas amet enim lectus sapien dignissim. Id varius maecenas
-        lacus nec facilisis molestie ac id. Varius sapien volutpat velit pretium
-        at tellus elementum. Elementum porta sapien egestas vulputate at quis
-        mi. Proin nunc commodo maecenas quis elit ipsum duis mi amet. Fames eu
-        viverra venenatis est blandit. Ipsum lacus sit enim feugiat quis
-        curabitur nulla egestas. Sit donec amet faucibus egestas lacus vehicula
-        dolor sed. Id aliquam sed amet purus nibh. Varius at mauris mauris
-        imperdiet dui arcu eu. Massa fermentum purus sem quisque. Ultricies quam
-        potenti tincidunt molestie lacus. Euismod eget tempor ac interdum amet
-        diam nam phasellus odio. Gravida faucibus est arcu ullamcorper sed
-        vulputate scelerisque sed eu. Volutpat ipsum id feugiat commodo pharetra
-        vitae massa amet orci. Tincidunt tellus vulputate fermentum quis.{" "}
+        No use of Nova PeerX Incorporation 's logo or other artwork will be allowed for linking absent a trademark license agreement.
       </p>
     </article>
+
+
     <article className={styles.termsAndConditionBody}>
+    <h1 className={styles.termsAndConditionTitle}>iFrames</h1>
       <p>
-        {" "}
-        Mi neque sagittis id in elementum. A faucibus aliquam lacus aliquet
-        dolor facilisis. In vel pellentesque ultrices et. In in volutpat
-        scelerisque sit purus libero viverra faucibus. Fames integer mauris
-        sapien egestas. Egestas enim aliquet eget accumsan eleifend aliquam arcu
-        ac. Commodo porttitor id purus hendrerit ante bibendum nibh ultricies
-        sed. Rhoncus purus montes dolor in bibendum. Aliquam sem leo morbi eget
-        rhoncus a. Quisque nec sit lectus donec leo purus id. Nullam dui
-        pulvinar orci urna est tortor etiam tellus dictum. Lectus mi magna
-        venenatis duis varius et etiam volutpat lobortis. Sagittis viverra
-        tristique elementum pulvinar pulvinar aliquam ante commodo duis. Metus
-        cursus interdum donec turpis cursus tristique. Pellentesque enim
-        elementum at tellus et sed massa. Suscipit habitant sem quam egestas
-        libero proin purus.
+       Without prior approval and written permission, you may not create frames around our Webpages 
+       that alter in any way the visual presentation or appearance of our Website.
       </p>
     </article>
+
     <article className={styles.termsAndConditionBody}>
+    <h1 className={styles.termsAndConditionTitle}>Content Liability</h1>
       <p>
-        {" "}
-        Consequat in habitant risus pretium viverra convallis. Id in vitae amet
-        nam nulla mi. Tellus est amet pulvinar lectus maecenas eget tristique.
-        Elit ultrices suspendisse sit nunc nascetur nulla dignissim. Integer
-        dolor ornare magnis id duis id. Pellentesque risus malesuada turpis
-        ullamcorper nunc orci. Aliquam dictumst tellus amet scelerisque
-        sollicitudin varius vulputate lorem. Aliquam a semper malesuada quis
-        eget a auctor etiam. At et at netus diam. Ut porttitor risus nulla amet
-        feugiat. Purus eget cursus nulla amet non non quam. A vitae ipsum tempus
-        velit suspendisse nibh vitae adipiscing. Libero sapien ut id vitae. Enim
-        sed vitae eget fermentum dui urna. Sociis pharetra ultrices diam dolor
-        sodales ornare aliquet consectetur.
+      We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
       </p>
     </article>
+
     <article className={styles.termsAndConditionBody}>
+    <h1 className={styles.termsAndConditionTitle}>Reservation of Rights</h1>
       <p>
-        Consequat in habitant risus pretium viverra convallis. Id in vitae amet
-        nam nulla mi. Tellus est amet pulvinar lectus maecenas eget tristique.
-        Elit ultrices suspendisse sit nunc nascetur nulla dignissim. Integer
-        dolor ornare magnis id duis id. Pellentesque risus malesuada turpis
-        ullamcorper nunc orci. Aliquam dictumst tellus amet scelerisque
-        sollicitudin varius vulputate lorem. Aliquam a semper malesuada quis
-        eget a auctor etiam. At et at netus diam. Ut porttitor risus nulla amet
-        feugiat. Purus eget cursus nulla amet non non quam. A vitae ipsum tempus
-        velit suspendisse nibh vitae adipiscing. Libero sapien ut id vitae. Enim
-        sed vitae eget fermentum dui urna. Sociis pharetra ultrices diam dolor
-        sodales ornare aliquet consectetur.
+      We reserve the right to request that you remove all links or any particular 
+      link to our Website. You approve to immediately remove all links to our Website upon request. 
+      We also reserve the right to amen these terms and conditions and it's linking policy at any time. 
+      By continuously linking to our Website, you agree to be bound to and follow these linking terms and 
+      conditions
       </p>
     </article>
+
     <article className={styles.termsAndConditionBody}>
+    <h1 className={styles.termsAndConditionTitle}>Removal of links from our website</h1>
       <p>
-        Integer feugiat commodo etiam lorem. Dolor amet sem lacus faucibus
-        consequat rhoncus orci cursus. A euismod neque porttitor vel odio elit
-        aliquet. Ipsum neque amet tellus pharetra sed eget. Id ultricies eget
-        commodo nibh praesent in arcu dictum. In eget elit ut vitae nibh viverra
-        aenean tristique odio. Fames diam vitae semper orci a at feugiat. Quam
-        facilisi curabitur semper enim hendrerit bibendum lobortis nunc. Sit
-        egestas dignissim orci purus. Morbi arcu in donec nec volutpat arcu elit
-        fringilla. Consectetur volutpat malesuada tristique dapibus odio diam.
-        Scelerisque sociis condimentum in cras ac at volutpat cursus. Volutpat
-        amet tincidunt nunc id vel tempor viverra nulla. At mus etiam molestie
-        sed euismod nunc.
+      If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.
+      We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.
       </p>
     </article>
+
     <article className={styles.termsAndConditionBody}>
+     
+    <div className={styles.termsAndConditionListContainer}>
+    <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
+      <ul className={styles.termsAndConditionListHeader}>
+      <li>Limit or exclude our or your liability for death or personal injury;</li>
+      <li>Limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
+      <li>Limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
+      <li>Exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+      </ul>
+    </div>
+
       <p>
-        Etiam mauris venenatis ultrices non ac sit fames sit. Feugiat sit
-        vestibulum semper viverra quis ut diam. Ornare amet ac tempor eget
-        mattis. Donec integer adipiscing nunc dolor nisi. Porttitor varius a
-        ultrices habitant id. Parturient sit duis dui curabitur urna nunc
-        aliquet eget nisi. Faucibus molestie ultrices mauris adipiscing
-        consequat vitae aliquet viverra. Diam amet nec enim urna feugiat
-        feugiat. Pulvinar vestibulum dignissim in cursus volutpat cursus
-        tincidunt facilisis. Egestas pharetra aliquet diam maecenas diam
-        suspendisse. Justo lectus imperdiet et enim. Non nascetur mauris
-        pulvinar sagittis turpis. Tincidunt sit dignissim donec feugiat ut quis.
-        Tellus vel sed gravida sed interdum vel ultrices netus. Quis tristique
-        amet ultrices mi fames eu morbi risus. Pellentesque quam molestie dui
-        hac id purus. Fringilla morbi vel eget consequat amet. Id sit porttitor
-        in facilisis aliquam. Eu adipiscing facilisis velit faucibus at ut
-        tellus. Phasellus vulputate nulla pellentesque non. Ultrices tortor
-        turpis elit auctor commodo faucibus lectus. Turpis odio urna enim a in.
-        Semper mauris urna mauris laoreet. Nunc suspendisse cursus vulputate vel
-        senectus. Pretium venenatis est feugiat mauris scelerisque sagittis.
-        Dolor ut feugiat scelerisque urna enim purus. At massa viverra risus
-        mauris volutpat scelerisque enim ac fermentum. Blandit donec sapien eu
-        sapien nisl diam pulvinar integer. Massa a eu faucibus hac ut vel tortor
-        malesuada sapien. Nibh nisi nulla morbi condimentum ultrices aenean mi
-        dui.
+      The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
+As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
       </p>
     </article>
+    
+    
   </section>
 </main>
 <Footer />
