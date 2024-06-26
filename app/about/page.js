@@ -24,6 +24,16 @@ function About() {
             <p className={styles.mainAboutSubtitle}>The company employs the use of cutting edge technology to drive innovative payment   
            <br/>solutions thereby ensuring safe and reliable financial transactions.</p>
           </div>
+
+          <div className={styles.aboutHeaderSubtitleMobile}>
+          <p className={styles.mainAboutSubtitle}>
+            
+            PEER X is a financial service Company founded to aid immigrants resident in
+            Canada and other parts of the world make monetary transfers and payments across borders.
+          </p>
+
+          <p className={styles.mainAboutSubtitle}>The company employs the use of cutting edge technology to drive innovative payment solutions thereby ensuring safe and reliable financial transactions.</p>
+        </div>
         </section>
 
         <section className={styles.peerXMotivationContainer}>
